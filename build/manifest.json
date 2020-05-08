@@ -1,0 +1,24 @@
+{
+  "name": "Annotations",
+  "organization": "Bounteous",
+  "description": "Add annotations to your time series chart, including single point and date range annotations.",
+  "logoUrl": "https://logo",
+  "organizationUrl": "https://www.bounteous.com/",
+  "supportUrl": "https://url",
+  "privacyPolicyUrl": "https://url",
+  "termsOfServiceUrl": "https://url",
+  "packageUrl": "https://url",
+  "devMode": false,
+  "components": [
+    {
+      "name": "Annotations",
+      "description": "Add annotations to your time series chart, including single point and date range annotations.",
+      "iconUrl": "https://url",
+      "resource": {
+        "js": "gs://ds-annotated-time-series/index.js",
+        "config": "gs://ds-annotated-time-series/index.json",
+        "css": "gs://ds-annotated-time-series/index.css"
+      }
+    }
+  ]
+}

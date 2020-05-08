@@ -1,0 +1,167 @@
+{
+  "data": [
+    {
+      "id": "dimensions",
+      "label": "Dimensions",
+      "elements": [
+        {
+          "id": "start_date",
+          "label": "Start Date",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1,
+            "supportedTypes": ["TIME"]
+          }
+        },
+        {
+          "id": "end_date",
+          "label": "End Date",
+          "type": "DIMENSION",
+          "options": {
+            "min": 0,
+            "max": 1,
+            "supportedTypes": ["TIME"]
+          }
+        },
+        {
+          "id": "annotation",
+          "label": "Annotation",
+          "type": "DIMENSION",
+          "options": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "id": "category",
+          "label": "Category",
+          "type": "DIMENSION",
+          "options": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "id": "arbitraryMetric",
+          "label": "Metric",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "styleOptions",
+      "label": "Chart Line Options",
+      "elements": [
+        {
+          "id": "lineColor",
+          "label": "Line Color",
+          "type": "FILL_COLOR",
+          "defaultValue": {
+            "color": "#0072f0"
+          }
+        },
+        {
+          "id": "lineWeight",
+          "label": "Line Weight",
+          "type": "LINE_WEIGHT",
+          "defaultValue": "2"
+        }
+      ]
+    },
+    {
+      "id": "pointAnnotOptions",
+      "label": "Single Point Annotation Options",
+      "elements": [
+        {
+          "id": "circleStroke",
+          "label": "Circle Stroke Color",
+          "type": "FILL_COLOR",
+          "defaultValue": {
+            "color": "#3504BC"
+          }
+        },
+        {
+          "id": "circleWeight",
+          "label": "Circle Stroke Thickness",
+          "type": "LINE_WEIGHT",
+          "defaultValue": "2"
+        },
+        {
+          "id": "circleRadius",
+          "label": "Circle Size",
+          "type": "BORDER_RADIUS",
+          "defaultValue": "7"
+        },
+        {
+          "id": "circleFillOpacity",
+          "label": "Circle Opacity",
+          "type": "OPACITY",
+          "defaultValue": "1"
+        },
+        {
+          "id": "circleFill",
+          "label": "Circle Color",
+          "type": "FILL_COLOR",
+          "defaultValue": {
+            "color": "white"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rangeAnnotOptions",
+      "label": "Range Annotation Options",
+      "elements": [
+        {
+          "id": "rectStroke",
+          "label": "Rectang;e Stroke Color",
+          "type": "FILL_COLOR",
+          "defaultValue": {
+            "color": "none"
+          }
+        },
+        {
+          "id": "rectWeight",
+          "label": "Rectangle Stroke Thickness",
+          "type": "LINE_WEIGHT",
+          "defaultValue": "none"
+        },
+        {
+          "id": "rectFillOpacity",
+          "label": "Rectangle Opacity",
+          "type": "OPACITY",
+          "defaultValue": ".2"
+        },
+        {
+          "id": "rectFill",
+          "label": "Rectangle Color",
+          "type": "FILL_COLOR",
+          "defaultValue": {
+            "color": "#afcfff"
+          }
+        },
+        {
+          "id": "rectFillHover",
+          "label": "Rectangle Color on Hover",
+          "type": "FILL_COLOR",
+          "defaultValue": {
+            "color": "#3504BC"
+          }
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "id": "onClick",
+      "supportedActions": ["FILTER"]
+    }
+  ]
+}

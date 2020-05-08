@@ -1,0 +1,35 @@
+body {
+  font-family: Roboto;
+}
+
+code {
+  background-color: #fdf6e3;
+  color: #586e75;
+}
+
+#tooltip {
+position: absolute;
+width: 75px;
+padding: 10px;
+background-color: white;
+border-radius: 2px;
+border: 1px solid #bdbdbd;
+pointer-events: none;
+display: none;
+font-family: 'Roboto', sans-serif;
+font-size: 13px;
+color: #606060;
+/* font-weight: bold; */
+box-shadow: 0px 2px 2px 0px rgba(204, 204, 204, 0.6);
+-webkit-box-shadow: 0px 2px 2px 0px rgba(204, 204, 204, 0.6);
+}
+
+.grid line {
+stroke: lightgrey;
+stroke-opacity: 0.7;
+shape-rendering: crispEdges;
+}
+
+.grid path {
+stroke-width: 0;
+}
